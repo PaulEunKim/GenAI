@@ -1,4 +1,4 @@
-# GenAI
+# Stable Diffusion API + Discord Bot
 Discord Bot that generates AI images based on user prompt.
 This bot uses the Stable Diffusion API.
 
