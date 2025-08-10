@@ -27,7 +27,7 @@ def handle_response(message) -> str:
 
     print('hello')
     # sending get request and saving the response as response object
-    r = requests.post(url=url, data=body)
+    r = requests.post(url=url, data=body, timeout=60)
 
     # extracting data in json format
     data = r.json()
